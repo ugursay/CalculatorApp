@@ -4,7 +4,7 @@ function History({ history, setHistory }) {
   return (
     <div className="scrollbar-custom space-y-2 max-h-[450px] overflow-y-auto pr-2 text-sm">
       {history.length === 0 ? (
-        <div className="text-white italic text-xl">Boş</div>
+        <div className="text-white italic text-xl">işlem Geçmişi</div>
       ) : (
         history.map((data, index) => (
           <div key={index} className="relative overflow-hidden">

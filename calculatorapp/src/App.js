@@ -24,7 +24,7 @@ function App() {
 
   const clear = () => {
     setInput("");
-    setHistory([...history, "boş işlem"]);
+    setHistory([...history, "Sıfırlandı"]);
   };
 
   return (
